@@ -5,7 +5,7 @@
 <center> 
 
 | Area  | Criteria    |
-| ---	| --- |
+| :---:	| --- |
 | **🌐 1. Front-End Design** 	|  i.  Build a one-page layout with a main nav menu.<br>ii.  Use HTML + CSS (or Bootstrap) for structure + responsiveness.<br>iii.  Follow accessibility rules:<br><sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Proper colour contrast.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.  Alt text for images.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c.  No WCAG (Web Content Accessibility Guidelines) errors.</sub><br>iv.  Use media queries, Flexbox, Grid, or Bootstrap to make it work on all screen sizes.<br>v.  Use semantic HTML for clear structure.       |
 | **🧠 2. User Experience (UX)**  	|   i.  Organise content clearly with headings that guide users.<br>ii.  Prioritise information to make key content easy to find.<br>iii.  If media is included (e.g., video), user must control it and get immediate feedback.	     |
 | **💻 3. Validation**  	| i.  All code must pass W3C and Jigsaw validators<br>ii.  Layout must remain functional and consistent across devices.<br>iii.  Navigation must be intuitive and smooth. 	      |
