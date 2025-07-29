@@ -1,4 +1,4 @@
-# solo-project-safeguarding
+# solo-project-safeguarding - SafeAndSound
 # ✅ Project Requirements (Simplified for Sanity)
 
 
