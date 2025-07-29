@@ -13,6 +13,11 @@
 |  **📄 5. Documentation** | **i.** Create a concise README.md:<br><sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.**  Purpose of the app.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**b.**  Who benefits and how?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.**  How to deploy it.</sub><br>**ii.**  Include screenshots + feature descriptions.<br>iii.  Attribute any code you didn’t write.    |
 | **🤖 6. AI Integration** | **i.**  Mention where you used AI to generate code.<br>**ii.**  Reflect on AI’s help with debugging and performance optimisation.<br>**iii.**  Discuss how AI tools affected your workflow (briefly, don’t write a novel).<br>**iv.**  Put these reflections in your README.       |
 
+| User Type  |  Brief |
+| :---:	| --- |
+| **💁🏾 External User’s Goal** | The user seeks clear, easy-to-understand information on safeguarding practices, including how to recognize and respond to safeguarding concerns. |
+| **🧑🏻‍💼 Site Owner’s Goal** |  The site owner wants to create a straightforward webpage that outlines the key principles of safeguarding using clear, structured content with basic HTML and CSS. The layout should be simple and intuitive, making the information easy to access and understand. |
+
 </center>
 
 
