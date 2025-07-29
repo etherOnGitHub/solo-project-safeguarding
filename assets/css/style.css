@@ -1,1 +1,36 @@
 /* CSS styles for the project */
+/* global variables */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --primary-color: #1768ac;
+    --secondary-color: #2541b2;
+    --highlight-color: #98d2eb;
+    --heavy-color: #1f0812;
+    --font-family: 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3 { 
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-transform: uppercase;
+    color: var(--heavy-color);
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    color: var(--primary-color);
+}
+
+body {
+    background-color: var(--primary-color);
+}
+.logo {
+    height: 50px;
+    color: var(--heavy-color);
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+}
