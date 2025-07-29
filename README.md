@@ -1,4 +1,4 @@
-# solo-project-safeguarding - SafeAndSound
+# solo-project-safeguarding - SafeAndSound - [Kanban Board Here](https://github.com/users/etherOnGitHub/projects/4)
 # ✅ Project Requirements (Simplified for Sanity)
 
 
