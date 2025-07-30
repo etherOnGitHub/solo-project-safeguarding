@@ -28,6 +28,10 @@ body {
     
 }
 
+a {
+    color:#1768ac !important;
+}
+
 /* god awful carousel */
 
 .carousel {
@@ -95,6 +99,12 @@ body {
     color:#1f0812
 }
 
+/* cards */
+
+.card {
+    border-radius: 0 !important;
+}
+
 /* newsletter */
 
 #newsletter-nav a {
@@ -107,6 +117,11 @@ body {
     align-items: center;
 }
 
+#newsletter {
+    background-color: var(--highlight-color);
+    padding: 20px;
+    text-align: center;
+}
 
 /* footer */
 
