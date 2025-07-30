@@ -97,15 +97,32 @@ body {
 
 /* newsletter */
 
-#newsletter {
-    color: white;
-    font-weight: bold;
+#newsletter-nav a {
+    color: white !important;
+    align-items: center;
 }
+
+#newsletter-nav a:hover {
+    color: var(--highlight-color) !important;
+    align-items: center;
+}
+
 
 /* footer */
 
 .footer {
     background-color: var(--secondary-color);
+}
+
+
+
+#icons i {
+    color: white !important;
+}
+
+#icons i:hover {
+    font-size: 20rem;
+    color: var(--highlight-color) !important;
 }
 
 #copy {
@@ -114,12 +131,13 @@ body {
     color: white;
 }
 
+/* queries */
 
 @media screen and (min-width: 1200px) {
     
     .carousel {
-        width: 100%;
-        max-width: 100vw;
+        height: auto;
+        max-height: none;
     }
     
     #middle-column-1 {
