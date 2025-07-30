@@ -28,6 +28,8 @@ body {
     
 }
 
+/* god awful carousel */
+
 .carousel {
     height: 100vh;
     max-height: 100vh;
@@ -48,6 +50,8 @@ body {
     object-fit: cover;
     object-position: center top;
 }
+
+/* navbar */
 
 .logo {
     height: 50px;
@@ -71,10 +75,7 @@ body {
     transform: translateY(0);
 }
 
-#newsletter {
-    color: white;
-    font-weight: bold;
-}
+/* body */
 
 #lead-title {
     background-color: var(--highlight-color);
@@ -93,6 +94,16 @@ body {
     background-color: var(--highlight-color);
     color:#1f0812
 }
+
+/* newsletter */
+
+#newsletter {
+    color: white;
+    font-weight: bold;
+}
+
+/* footer */
+
 .footer {
     background-color: var(--secondary-color);
 }
