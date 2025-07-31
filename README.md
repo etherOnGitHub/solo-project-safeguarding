@@ -2,11 +2,12 @@
 ### [📈 Kanban Board Here](https://github.com/users/etherOnGitHub/projects/4) | [📃 Pages Build Here](https://etherongithub.github.io/solo-project-safeguarding/)
 ## Contents
 
-  **1. [Project Requirements](#-project-requirements-simplified-for-sanity)** <br>
+   **1. [Project Requirements](#-project-requirements-simplified-for-sanity)** <br>
    **2. [Purpose](#%EF%B8%8F-purpose)** <br>
-   **3. [Deployment](#%EF%B8%8F-deployment)** <br>
-   **4. [Use of AI](#use-of-ai)** <br>
-   **5. [Credits](#-credits)** <br>
+   **3. [Planning & Development](#-planning--development)** <br>
+   **4. [Deployment](#%EF%B8%8F-deployment)** <br>
+   **5. [Use of AI](#use-of-ai)** <br>
+   **6. [Credits](#-credits)** <br>
 
 ## ✅ Project Requirements (Simplified for Sanity)
 <center> 
@@ -34,6 +35,48 @@ The general purpose of the website is to educate and inform people on safeguardi
 ### User value
 
 The value to the user is that information regarding safeguarding and its practices are quick and easy to access. There is also a newsletter and report form so the user can seek more additional resources while not having to access any additional sites or pages. 
+
+## 📐 Planning & Development
+
+### Wireframes
+
+<p>
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/Wireframe-desktop.webp" alt="A picture displaying the wireframe early planned look on desktop"/>
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/Wireframe-mobile.webp" alt="A picture displaying the wireframe of the planned look of the mobile site" height="338px"/>
+</p>
+<p><sub>Link to desktop image in repo: https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/Wireframe-desktop.webp | Link to mobile image in repo: https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/Wireframe-mobile.webp</sub></p>
+<p></p>
+
+The wireframes helped visualise how the design may look and I did deviate from it a bit but I think in a positive direction, a more interesting direction.
+
+### Overall User Experience
+#### Mobile-First Approach
+Mobile is the largest audience to target so it makes sense to build websites with mobile in mind first.
+<p>
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/main-page-mobile-collapse.webp" alt="Mobile first display of website banner"/>
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/main-page-mobile-footer.webp" alt="Mobile first display of website footer"/>
+</p>
+<br>
+<p><sub>Link to image in repo: https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/main-page-mobile-collapse.webp | Link to image in repo: https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/main-page-mobile-footer.webp</sub></p>
+<p></p>
+<br>
+As you can see the website collapses down into a single column for scrolling and has a navbar at the top that collapses down to see the main headings on the page. This means that it is very easy to navigate all the elements even withing the restricted screen space. The footer contains external links to other pages that could be set up for the organisation.
+
+#### Desktop
+Desktop view consolidates all the sections of the page into a wider view range, with the central column being the largest to fit a video within the column. The elements align across the page making use of grids to condense the information on a wide screen.
+<p>
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/main-page-carousel-user-experience.webp" alt="Desktop display of main carousel"/>
+</p>
+ The main banner upon loading hides the navbar below the splash page. Upon scrolling down the navbar appears and the lower body content is displayed.
+ <br>
+<p>
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/main-page-body-user-experience.webp" alt="Desktop display of the main body of page elements"/>
+</p>
+Here the website is condensed down into those columns that are highlighted red. More information is visible and accessible but the main navbar and footer elements are consistent with mobile.
+<br>
+<p><sub>Link to image in repo: https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/main-page-mobile-collapse.webp | Link to image in repo: https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/main-page-mobile-footer.webp</sub></p>
+<p></p>
+<br>
 
 ## ☁️ Deployment
 
