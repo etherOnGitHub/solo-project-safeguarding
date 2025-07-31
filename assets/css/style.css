@@ -83,6 +83,7 @@ a {
     z-index: 1000;
     transition: all 0.3s ease;
     color: var(--highlight-color);
+    font-size: 0.8rem;
 }
 
 .navbar a {
