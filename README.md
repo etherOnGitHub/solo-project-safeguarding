@@ -3,10 +3,10 @@
 ## Contents
 
   **1. [Project Requirements](#-project-requirements-simplified-for-sanity)** <br>
-   **2. [Purpose]()** <br>
-   **3. [Deployment]()** <br>
-   **4. [Use of AI]()** <br>
-   **5. [Credits]()** <br>
+   **2. [Purpose](#%EF%B8%8F-purpose)** <br>
+   **3. [Deployment](#%EF%B8%8F-deployment)** <br>
+   **4. [Use of AI](#use-of-ai)** <br>
+   **5. [Credits](#-credits)** <br>
 
 ## ✅ Project Requirements (Simplified for Sanity)
 <center> 
@@ -29,8 +29,25 @@
 
 ## ♣️ Purpose
 
+The general purpose of the website is to educate and inform people on safeguarding practices so it needs to be concise and easy to follow; so the layout needs to be compact and small chunks of highly dense information. Delivered in a cool and friendly manor. The website has an embedded video too to watch for eductation.
+
+### User value
+
+The value to the user is that information regarding safeguarding and its practices are quick and easy to access. There is also a newsletter and report form so the user can seek more additional resources while not having to access any additional sites or pages. 
+
 ## ☁️ Deployment
+<p align="center">
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/website-examples-proj-1.webp" />
+</p>
 
 ## 🔌Use of AI
 
 ## 🙏🏻 Credits
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [Bootstrap5.3](https://getbootstrap.com/)
+- [FontAwesome7](https://fontawesome.com/)
+- [GoogleFonts](https://fonts.google.com/)
+- [ChatGPT (image generation)](https://chatgpt.com/)
+- [Copilot - GitHub](https://github.com/features/copilot) 
