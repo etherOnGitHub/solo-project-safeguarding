@@ -28,6 +28,24 @@ body {
     
 }
 
+/* Accessibility */
+.visually-hidden-focusable {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    z-index: 9999;
+    padding: 8px 16px;
+    background: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: top 0.2s;
+}
+
+.visually-hidden-focusable:focus {
+    top: 6px;
+}
+
 a {
     color:#1768ac !important;
 }

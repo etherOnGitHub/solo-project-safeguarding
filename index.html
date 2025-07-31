@@ -11,76 +11,77 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
+    <a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
+    <div id="carouselExample" class="carousel slide" aria-label="Safeguarding awareness images">
+        <div class="carousel-inner" role="img" aria-label="Image carousel showing safeguarding scenarios">
             <div class="carousel-item active">
                 <img src="assets/images/safeguarding-image-1.webp" alt="Image of family being protected by safeguarding"
-                    class="d-block w-100" alt="...">
+                    class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="assets\images\safeguarding-helping-elderly.webp" class="d-block w-100" alt="an elderly person being helped by a younger person from a relative taking advantage of them">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" aria-label="Previous image">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" aria-label="Next image">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark" role="navigation" aria-label="Main navigation">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html" aria-label="SafeAndSound homepage">
                 <img src="assets/images/safeguard-logo-text.webp" alt="SafeAndSound logo" class="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                aria-label="Toggle navigation menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a class="nav-link active" aria-current="page" href="index.html" role="menuitem">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#lead-title">What is safeguarding?</a>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#lead-title" role="menuitem">What is safeguarding?</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#responsibilies-body">Key Responsibilies</a>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#responsibilies-body" role="menuitem">Key Responsibilities</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#middle-column-1">Safeguarding Video</a>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#middle-column-1" role="menuitem">Safeguarding Video</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#report-safeguarding"><b>Report</b></a>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#report-safeguarding" role="menuitem" aria-label="Report safeguarding concerns"><b>Report</b></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#newsletter">Newsletter</a>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#newsletter" role="menuitem">Newsletter</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#download-resource" role="menuitem">Downloadable Resources</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="flex-grow-1">
-        <div id="container">
+    <main class="flex-grow-1" role="main" id="main-content">
+        <section id="container" aria-labelledby="lead-title">
             <h1 id="lead-title" class="mb-0 mt-0"><strong>Safeguarding... what is it?</strong></h1>
             <p id="define" class="text-center mb-0">Safeguarding means protecting people's health, well-being, and human
                 rights, and enabling them to live free from harm, abuse, and neglect.</p>
-        </div>
-        <div id="responsibilies-body" class="container">
+        </section>
+        <section id="responsibilies-body" class="container" aria-labelledby="responsibilities-heading">
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-3 mb-4 mt-4">
                     <div>
-                        <h2 class="text-center mb-4">Key responsibilies</h2>
+                        <h2 id="responsibilities-heading" class="text-center mb-4">Key responsibilities</h2>
                     </div>
-                    <div class="d-flex flex-column align-items-center gap-3">
-                        <div class="card">
+                    <div class="d-flex flex-column align-items-center gap-3" role="list" aria-label="Key safeguarding responsibilities">
+                        <div class="card" role="listitem">
                             <div id="protect-harm" class="card-body">
                                 <h5 class="card-title">Protect from harm</h5>
                                 <p class="card-text">Stop abuse, neglect, exploitation, and discrimination before it
@@ -127,10 +128,10 @@
                     <div class="d-flex justify-content-start mb-4">
                         <iframe width="700" height="500"
                             src="https://www.youtube.com/embed/oWTxt16L75s?si=VzH61dY7Y7TaNbCM"
-                            title="YouTube video player" frameborder="0"
+                            title="Safeguarding awareness video: Everyone's responsibility to protect vulnerable individuals" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                            style="max-width:100%;"></iframe>
+                            style="max-width:100%;" role="application" aria-label="Educational video about safeguarding responsibilities"></iframe>
                     </div>
                 </div>
                 <div id="report-safeguarding" class="col-12 col-xl-3 text-center mt-4">
@@ -138,74 +139,82 @@
                     <p>If you suspect someone is at risk, <b>report it.</b>
                         Your action can make a difference.</p>
                     <form id="report-form" action="https://formdump.codeinstitute.net/" method="post"
-                        class="d-flex flex-column align-items-center gap-3">
-                        <div class="mb-3 w-100" style="max-width: 400px;">
-                            <label class="form-label d-block mb-4">
+                        class="d-flex flex-column align-items-center gap-3" role="form" aria-labelledby="report-safeguarding">
+                        <fieldset class="mb-3 w-100" style="max-width: 400px;">
+                            <legend class="form-label d-block mb-4">
                                 <h3>Do you wish to be anonymous?</h3>
-                            </label>
+                            </legend>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="anonymous" id="anonymous-yes"
-                                    value="yes" checked>
+                                    value="yes" checked aria-describedby="anonymous-help">
                                 <label class="form-check-label" for="anonymous-yes">Report Anonymously</label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="anonymous" id="anonymous-no"
-                                    value="no">
+                                    value="no" aria-describedby="anonymous-help">
                                 <label class="form-check-label" for="anonymous-no">Include My Details</label>
                             </div>
-                        </div>
-                        <div id="details-fields" class="mb-3 w-100" style="max-width: 400px; display: none;">
+                            <div id="anonymous-help" class="visually-hidden">Choose whether to report anonymously or include your contact details</div>
+                        </fieldset>
+                        <div id="details-fields" class="mb-3 w-100" style="max-width: 400px; display: none;" aria-live="polite">
                             <label for="reporter-name" class="form-label">Your Name (optional)</label>
-                            <input type="text" class="form-control mb-2" id="reporter-name" name="name">
+                            <input type="text" class="form-control mb-2" id="reporter-name" name="name" aria-describedby="name-help">
+                            <div id="name-help" class="visually-hidden">Optional: Provide your name if you want to be contacted</div>
                             <label for="reporter-email" class="form-label">Your Email (optional)</label>
-                            <input type="email" class="form-control" id="reporter-email" name="email">
+                            <input type="email" class="form-control" id="reporter-email" name="email" aria-describedby="email-help">
+                            <div id="email-help" class="visually-hidden">Optional: Provide your email for follow-up communication</div>
                         </div>
                         <div class="mb-3 w-100" style="max-width: 400px;">
                             <label for="concern-message" class="form-label">Describe your concern</label>
                             <textarea class="form-control rounded-0" id="concern-message" name="message" rows="4" required
-                                placeholder="Please provide as much detail as possible..."></textarea>
+                                placeholder="Please provide as much detail as possible..." aria-describedby="concern-help"></textarea>
+                            <div id="concern-help" class="form-text">Provide as much detail as possible about your safeguarding concern</div>
                         </div>
-                        <button type="submit" class="btn">Report Concern</button>
+                        <button type="submit" class="btn" aria-describedby="submit-help">Report Concern</button>
+                        <div id="submit-help" class="visually-hidden">Submit your safeguarding concern report</div>
                     </form>
                 </div>
             </div>
-        </div>
-        <div id="newsletter" class="col-12 text-center">
-            <h2>Newsletter</h2>
+        </section>
+        <section id="newsletter" class="col-12 text-center" aria-labelledby="newsletter-heading">
+            <h2 id="newsletter-heading">Newsletter</h2>
             <p>Subscribe to our newsletter for the latest updates on safeguarding practices and resources.</p>
             <form action="https://formdump.codeinstitute.net/" method="post"
-                class="d-flex flex-column align-items-center gap-3">
+                class="d-flex flex-column align-items-center gap-3" role="form" aria-labelledby="newsletter-heading">
                 <div class="mb-3 w-100" style="max-width: 400px;">
                     <label for="newsletter-email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="newsletter-email" name="email" required>
+                    <input type="email" class="form-control" id="newsletter-email" name="email" required aria-describedby="newsletter-email-help">
+                    <div id="newsletter-email-help" class="form-text">We'll never share your email with anyone else</div>
                 </div>
-                <div class="mb-3 w-100" style="max-width: 400px;">
-                    <label class="form-label d-block mb-2">Newsletter Frequency</label>
+                <fieldset class="mb-3 w-100" style="max-width: 400px;">
+                    <legend class="form-label d-block mb-2">Newsletter Frequency</legend>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="frequency" id="monthly" value="monthly"
-                            required>
+                            required aria-describedby="frequency-help">
                         <label class="form-check-label" for="monthly">Monthly</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="frequency" id="yearly" value="yearly">
+                        <input class="form-check-input" type="radio" name="frequency" id="yearly" value="yearly" aria-describedby="frequency-help">
                         <label class="form-check-label" for="yearly">Yearly</label>
                     </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Subscribe</button>
+                    <div id="frequency-help" class="visually-hidden">Choose how often you want to receive our newsletter</div>
+                </fieldset>
+                <button type="submit" class="btn btn-primary" aria-describedby="newsletter-submit-help">Subscribe</button>
+                <div id="newsletter-submit-help" class="visually-hidden">Subscribe to receive safeguarding updates</div>
             </form>
-        </div>
-        <div class="align text-center mt-3 mb-4">
-            <h2>Downloadable Resources</h2>
-            <a href="assets\download\downloadable-resource.pdf" download="Safeguarding Example Doc">Download
-                a PDF of Safeguading</a>
-        </div>
+        </section>
+        <section id="download-resource" class="align text-center mt-3 mb-4" aria-labelledby="download-heading">
+            <h2 id="download-heading">Downloadable Resources</h2>
+            <a href="assets\download\downloadable-resource.pdf" download="Safeguarding Example Doc" aria-describedby="download-help">Download
+                a PDF of Safeguarding</a>
+            <div id="download-help" class="visually-hidden">Download a comprehensive PDF guide about safeguarding practices</div>
+        </section>
     </main>
-    <footer class="footer mt-auto">
-        <div id="icons" class="container d-flex justify-content-between align-items-center mb-3 mt-3">
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-
+    <footer class="footer mt-auto" role="contentinfo" aria-label="Site footer">
+        <div id="icons" class="container d-flex justify-content-between align-items-center mb-3 mt-3" role="navigation" aria-label="Social media links">
+            <a href="https://www.facebook.com/" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://x.com/" aria-label="Visit our X (Twitter) page"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
         </div>
         <div>
             <p id="copy" class="mb-0">&copy; 2025 SafeAndSound. All rights reserved.</p>
