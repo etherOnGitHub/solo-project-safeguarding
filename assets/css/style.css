@@ -35,6 +35,7 @@ a {
 .btn {
     background-color: var(--secondary-color) !important;
     border-color: #2541b2 !important;
+    border-radius: 0 !important;
 }
 
 .btn:hover {
@@ -122,6 +123,19 @@ a {
 
 .card {
     border-radius: 0 !important;
+}
+
+/* report form */
+
+#report-form {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    color: white;
+}
+
+#report-form .btn {
+    background-color: var(--highlight-color) !important;
+    color: var(--heavy-color);
 }
 
 /* newsletter */

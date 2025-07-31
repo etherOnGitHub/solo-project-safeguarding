@@ -100,7 +100,9 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">Report concerns</h5>
-                                    <p class="card-text">If you see something shady? <a href="#"><b>Report it.</b></a> Fast. Follow your
+                                    <p class="card-text">If you see something shady? <a href="#report-form"><b>Report
+                                                it.</b></a>
+                                        Fast. Follow your
                                         organization’s procedures (or whistleblow if needed).</p>
                                 </div>
                             </div>
@@ -123,22 +125,32 @@
                     <p>Whether you’re a family member, friend, neighbor, or community member, you can help protect
                         vulnerable individuals.</p>
                     <div class="d-flex justify-content-start">
-                        <iframe width="700" height="500" src="https://www.youtube.com/embed/oWTxt16L75s?si=VzH61dY7Y7TaNbCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;"></iframe>
+                        <iframe width="700" height="500"
+                            src="https://www.youtube.com/embed/oWTxt16L75s?si=VzH61dY7Y7TaNbCM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                            style="max-width:100%;"></iframe>
                     </div>
                 </div>
                 <div class="col-12 col-xl-3 text-center mt-4">
                     <h2>Report a Safeguarding Concern</h2>
                     <p>If you suspect someone is at risk, <b>report it.</b>
                         Your action can make a difference.</p>
-                    <form id="report-form" action="https://formdump.codeinstitute.net/" method="post" class="d-flex flex-column align-items-center gap-3">
+                    <form id="report-form" action="https://formdump.codeinstitute.net/" method="post"
+                        class="d-flex flex-column align-items-center gap-3">
                         <div class="mb-3 w-100" style="max-width: 400px;">
-                            <label class="form-label d-block mb-2">Report Type</label>
+                            <label class="form-label d-block mb-4">
+                                <h3>Do you wish to be anonymous?</h3>
+                            </label>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="anonymous" id="anonymous-yes" value="yes" checked>
+                                <input class="form-check-input" type="radio" name="anonymous" id="anonymous-yes"
+                                    value="yes" checked>
                                 <label class="form-check-label" for="anonymous-yes">Report Anonymously</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="anonymous" id="anonymous-no" value="no">
+                                <input class="form-check-input" type="radio" name="anonymous" id="anonymous-no"
+                                    value="no">
                                 <label class="form-check-label" for="anonymous-no">Include My Details</label>
                             </div>
                         </div>
@@ -150,35 +162,19 @@
                         </div>
                         <div class="mb-3 w-100" style="max-width: 400px;">
                             <label for="concern-message" class="form-label">Describe your concern</label>
-                            <textarea class="form-control" id="concern-message" name="message" rows="4" required placeholder="Please provide as much detail as possible..."></textarea>
+                            <textarea class="form-control" id="concern-message" name="message" rows="4" required
+                                placeholder="Please provide as much detail as possible..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-danger">Report Concern</button>
+                        <button type="submit" class="btn">Report Concern</button>
                     </form>
-                    <script>
-                        const anonYes = document.getElementById('anonymous-yes');
-                        const anonNo = document.getElementById('anonymous-no');
-                        const detailsFields = document.getElementById('details-fields');
-
-                        function toggleDetails() {
-                            if (anonNo.checked) {
-                                detailsFields.style.display = 'block';
-                            } else {
-                                detailsFields.style.display = 'none';
-                            }
-                        }
-
-                        anonYes.addEventListener('change', toggleDetails);
-                        anonNo.addEventListener('change', toggleDetails);
-                        // Initialize on load
-                        toggleDetails();
-                    </script>
                 </div>
             </div>
         </div>
         <div id="newsletter" class="col-12 text-center">
             <h2>Newsletter</h2>
             <p>Subscribe to our newsletter for the latest updates on safeguarding practices and resources.</p>
-            <form action="https://formdump.codeinstitute.net/" method="post" class="d-flex flex-column align-items-center gap-3">
+            <form action="https://formdump.codeinstitute.net/" method="post"
+                class="d-flex flex-column align-items-center gap-3">
                 <div class="mb-3 w-100" style="max-width: 400px;">
                     <label for="newsletter-email" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="newsletter-email" name="email" required>
@@ -200,8 +196,8 @@
         </div>
         <div class="align text-center mt-3 mb-4">
             <h2>Downloadable Resources</h2>
-                    <a href="assets\download\downloadable-resource.pdf" download="Safeguarding Example Doc">Download
-                        a PDF of Safeguading</a>
+            <a href="assets\download\downloadable-resource.pdf" download="Safeguarding Example Doc">Download
+                a PDF of Safeguading</a>
         </div>
     </main>
     <footer class="footer mt-auto">
@@ -218,6 +214,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9cf674f529.js" crossorigin="anonymous"></script>
     <script>
         window.addEventListener('scroll', function () {
             const navbar = document.getElementById('navbar');
@@ -231,7 +228,25 @@
             }
         });
     </script>
-    <script src="https://kit.fontawesome.com/9cf674f529.js" crossorigin="anonymous"></script>
+    <script>
+        const anonYes = document.getElementById('anonymous-yes');
+        const anonNo = document.getElementById('anonymous-no');
+        const detailsFields = document.getElementById('details-fields');
+
+        function toggleDetails() {
+            if (anonNo.checked) {
+                detailsFields.style.display = 'block';
+            } else {
+                detailsFields.style.display = 'none';
+            }
+        }
+
+        anonYes.addEventListener('change', toggleDetails);
+        anonNo.addEventListener('change', toggleDetails);
+        // Initialize on load
+        toggleDetails();
+    </script>
+
 </body>
 
 
