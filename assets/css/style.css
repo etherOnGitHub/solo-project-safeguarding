@@ -168,7 +168,7 @@ a {
 /* download */
 
 #download-resource {
-    background-color: var(--highlight-color);
+    background-color: var(--highlight-color) !important;
 }
 
 #download-help {
