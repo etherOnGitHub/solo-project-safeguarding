@@ -36,11 +36,43 @@ The general purpose of the website is to educate and inform people on safeguardi
 The value to the user is that information regarding safeguarding and its practices are quick and easy to access. There is also a newsletter and report form so the user can seek more additional resources while not having to access any additional sites or pages. 
 
 ## ☁️ Deployment
+
 <p align="center">
-  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/website-examples-proj-1.webp" />
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/website-examples-proj-1.webp" alt="A picture displaying the deployed website on various devices."/><br>
+  <sub>Link to image in repo: https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/website-examples-proj-1.webp</sub>
 </p>
 
+
+
 ## 🔌Use of AI
+
+GitHub Copilot was used during the creation of this website, used as a tool for assisting in creation of content and **_not_** as a replacement for building the website. AI is good for assisting but often makes vital mistakes and errors along the building process.
+
+ChatGPT was used to generate images for the content as well as help generate some body text that is concise and informative, it refined the text given to be short and to the point in some cases.
+
+### 🪳 Identifying Issues and Bugs
+#### Example A - Set up my basic file structure!
+
+An example use case of AI is to sidestep creating the folders and file structures to save time on menial tasks to focus more on development. It is quite reliable at creating these structures for you but it can sometimes, if you dont specify it not to, can generate a javascript folder or name soemthing wrong so its best to specify what you need with it.
+
+<p align="center">
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/AI-generate-boilerplate.webp"/><br>
+  <sub>Link to image in repo: https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/AI-generate-boilerplate.webp</sub>
+</p>
+
+#### Example B - CSS syntax bug
+
+AI is great at squashing syntax errors without wasting 5 minutes reading line by line throught the code. This increase my workrate exponentially as any syntax errors are immediately detected.
+
+<p align="center">
+  <img src="https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/AI-bugfix-example.webp"/><br>
+  <sub>Link to image in repo: https://github.com/etherOnGitHub/solo-project-safeguarding/blob/main/assets/readme/AI-bugfix-example.webp</sub>
+</p>
+
+
+### Optimization
+
+### AI, is it worth it?
 
 ## 🙏🏻 Credits
 
@@ -50,4 +82,5 @@ The value to the user is that information regarding safeguarding and its practic
 - [FontAwesome7](https://fontawesome.com/)
 - [GoogleFonts](https://fonts.google.com/)
 - [ChatGPT (image generation)](https://chatgpt.com/)
-- [Copilot - GitHub](https://github.com/features/copilot) 
+- [Copilot - GitHub](https://github.com/features/copilot)
+- [W3C validator HTML/CSS](https://validator.w3.org/)
