@@ -1,10 +1,16 @@
 # solo-project-safeguarding - SafeAndSound
-## [📈 Kanban Board Here](https://github.com/users/etherOnGitHub/projects/4) - [📃 Pages Build Here](https://etherongithub.github.io/solo-project-safeguarding/)
-# ✅ Project Requirements (Simplified for Sanity)
+### [📈 Kanban Board Here](https://github.com/users/etherOnGitHub/projects/4) | [📃 Pages Build Here](https://etherongithub.github.io/solo-project-safeguarding/)
+## Contents
 
+  **1. [Project Requirements](#-project-requirements-simplified-for-sanity)** <br>
+   **2. [Purpose]()** <br>
+   **3. [Deployment]()** <br>
+   **4. [Use of AI]()** <br>
+   **5. [Credits]()** <br>
 
+## ✅ Project Requirements (Simplified for Sanity)
 <center> 
-
+  
 | Area  | Criteria    |
 | :---:	| --- |
 | **🌐 1. Front-End Design** 	|  **i.**  Build a one-page layout with a main nav menu.<br>**ii.**  Use HTML + CSS (or Bootstrap) for structure + responsiveness.<br>**iii.**  Follow accessibility rules:<br><sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Proper colour contrast.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**b.**  Alt text for images.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.**  No WCAG (Web Content Accessibility Guidelines) errors.</sub><br>**iv.**  Use media queries, Flexbox, Grid, or Bootstrap to make it work on all screen sizes.<br>**v.**  Use semantic HTML for clear structure.       |
@@ -21,7 +27,10 @@
 
 </center>
 
+## ♣️ Purpose
 
+## ☁️ Deployment
 
+## 🔌Use of AI
 
-
+## 🙏🏻 Credits
