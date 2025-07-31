@@ -71,6 +71,15 @@ a {
     transform: translateY(-50%);
     z-index: 1000;
     transition: all 0.3s ease;
+    color: var(--highlight-color);
+}
+
+.navbar a {
+    color: var(--highlight-color) !important;
+}
+
+.navbar a:hover {
+    color:white !important;
 }
 
 .navbar.scrolled {
@@ -107,18 +116,8 @@ a {
 
 /* newsletter */
 
-#newsletter-nav a {
-    color: white !important;
-    align-items: center;
-}
-
-#newsletter-nav a:hover {
-    color: var(--highlight-color) !important;
-    align-items: center;
-}
 
 #newsletter {
-    background-color: var(--highlight-color);
     padding: 20px;
     text-align: center;
 }
