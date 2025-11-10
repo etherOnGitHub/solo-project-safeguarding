@@ -1,5 +1,5 @@
 # solo-project-safeguarding - SafeAndSound
-### [📈 Kanban Board Here](https://github.com/users/etherOnGitHub/projects/4) | [📃 Pages Build Here](https://etherongithub.github.io/solo-project-safeguarding/)
+### [📈 Kanban Board Here](https://github.com/users/etherOnGitHub/projects/4) | [📃 Pages Build Here](https://safe.aetherwave.dev)
 ## Contents
 
    **1. [Project Requirements](#-project-requirements-simplified-for-sanity)** <br>
